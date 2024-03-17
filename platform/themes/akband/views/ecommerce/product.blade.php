@@ -94,14 +94,14 @@
             <div class="akband-border-shop-card">
                 <form class="add-to-cart-form" method="POST" action="{{ route('public.ajax.cart.store') }}">
                     @csrf
-{{--                    @if ($product->variations()->count() > 0)--}}
-{{--                        <div class="pr_switch_wrap">--}}
-{{--                            {!! render_product_swatches($product, [--}}
-{{--                                'selected' => $selectedAttrs,--}}
-{{--                                'view' => Theme::getThemeNamespace() . '::views.ecommerce.attributes.swatches-renderer'--}}
-{{--                            ]) !!}--}}
-{{--                        </div>--}}
-{{--                    @endif--}}
+                    @if ($product->variations()->count() > 0)
+                        <div class="pr_switch_wrap">
+                            {!! render_product_swatches($product, [
+                                'selected' => $selectedAttrs,
+                                'view' => Theme::getThemeNamespace() . '::views.ecommerce.attributes.swatches-renderer'
+                            ]) !!}
+                        </div>
+                    @endif
                     {!! render_product_options($product) !!}
                     {!! Theme::partial('product-availability', compact('product', 'productVariation')) !!}
                     {!! apply_filters(ECOMMERCE_PRODUCT_DETAIL_EXTRA_HTML, null, $product) !!}
