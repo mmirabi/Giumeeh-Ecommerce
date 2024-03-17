@@ -1,0 +1,8 @@
+{
+    "id": "botble/nest",
+    "name": "Akband",
+    "namespace": "Theme\\Nest\\",
+    "description": "Akband - eCommerce",
+    "author": "Mehdi Mirabi",
+    "required_plugins": []
+}
