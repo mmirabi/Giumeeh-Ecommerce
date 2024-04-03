@@ -1,0 +1,60 @@
+div#news-flash {
+    height: 15px!important;
+}
+.product-cart-wrap .product-card-bottom .add-cart .add {
+    background-color: var(--color-brand);
+    font-size: 19px!important;
+    position: relative!important;
+    color: #fff!important;
+  	padding: 5px 5px!important;
+}
+body[dir=rtl] .mr-5 {
+    margin-right: 5px!important;
+}
+body[dir=rtl] .mr-5 {
+    margin-left: 0px!important;
+}
+
+label {
+right: 0px!important;
+
+}
+
+.customer-address-payment-form .form-control:not(:placeholder-shown):valid+label, .customer-tax-information-form .form-control:not(:placeholder-shown):valid+label, .customer-address-payment-form .form-input-wrapper label {
+right: 10px!important;
+  left:unset!important;
+}
+@media (min-width: 768px){
+.text-md-start {
+    text-align: right!important;
+}
+}
+
+@media only screen and (max-width: 480px){
+    .slick-track {
+        transition: none!important;
+    }
+}
+
+.product-cart-wrap .product-action-1 a.action-btn, .product-cart-wrap .product-action-1 button {
+    width: 30px!important;
+}
+
+@media only screen and (max-width: 480px) {
+    .product-list-small figure.col-md-4 {
+        max-width: 100%!important;
+    }
+}
+
+.has-buy-now-button .button.button-buy-now {
+    font-size: 12px;
+
+}
+
+.product-extra-link2 .button.button-add-to-cart {
+    font-size: 12px;
+}
+
+.product-cart-wrap .product-content-wrap .product-price span {
+    font-size: 14px;
+}

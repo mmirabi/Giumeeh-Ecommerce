@@ -126,7 +126,7 @@
     "Buy now": "اکنون خرید کنید",
     "Buy this one: :link": "این را بخرید: :link",
     "By :name": "توسط :name",
-    "Call Us": "با ما تماس بگیرید",
+    "Call Us": "تماس با ما",
     "Can't send message on this time, please try again later!": "در این زمان نمی‌توان پیام ارسال کرد، لطفاً بعداً دوباره امتحان کنید!",
     "Cancel": "لغو",
     "Cancel order": "لغو سفارش",
@@ -241,7 +241,7 @@
     "Download invoice": "دانلود فاکتور",
     "Download product \":name\" with external links": "دانلود محصول \":name\" با لینک‌های خارجی",
     "Downloads": "دانلودها",
-    "Drop Us a Line": "با ما تماس بگیرید",
+    "Drop Us a Line": "تماس با ما",
     "Drop files here or click to upload.": "فایل‌ها را اینجا بیافکنید یا برای بارگذاری کلیک کنید.",
     "Earnings": "درآمد",
     "Earnings in :label": "درآمد در :label",
@@ -952,5 +952,6 @@
     "tags": "تگ‌ها",
     "to": "تا",
     "when shipping fee less than or equal :amount": "زمانی که هزینه حمل و نقل کمتر یا مساوی :amount باشد",
+    "Login/Register to your phone number": "برای ورود/ثبت نام از شماره تلفن همراه خود استفاده کنید.",
     "✅ Purchased :time": "✅ خریداری شده در :time"
 }

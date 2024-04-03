@@ -79,7 +79,7 @@
                             data-id="{{ $product->id }}"
                             data-url="{{ route('public.ajax.cart.store') }}"
                             href="#">
-                            <i class="fi-rs-shopping-cart mr-5"></i> <span class="d-inline-block">{{ __('Add') }}</span>
+                            <i class="fi-rs-shopping-cart mr-5"></i> <span class="d-inline-block"></span>
                         </a>
                     </div>
                 @endif
